@@ -11,19 +11,19 @@ const Footer = () => {
                 </p>
                 <ul className='links'>
                     <li>
-                        <a href="/about" className='links'>
-                            About Us
-                        </a>
+
+                        About Us
+
                     </li>
                     <li>
-                        <a href="/contact" className='links'>
-                            Contact
-                        </a>
+
+                        Contact
+
                     </li>
                     <li>
-                        <a href="/privacy" className='links'>
-                            Privacy Policy
-                        </a>
+
+                        Privacy Policy
+
                     </li>
                 </ul>
             </div>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
     return (
         <nav className="bg-gray-800 p-4 shadow-md">
@@ -13,15 +15,15 @@ const Navbar = () => {
 
                 {/* Menu */}
                 <div className="space-x-6">
-                    <a href="/" className="text-gray-300 text-2xl hover:text-white">
+                    <Link to={"/"} className="text-gray-300 text-2xl hover:text-white">
                         Home
-                    </a>
-                    <a href="/season" className="text-gray-300 text-2xl hover:text-white">
+                    </Link>
+                    <Link to={"/season"} className="text-gray-300 text-2xl hover:text-white">
                         Season
-                    </a>
-                    <a href="/favorite" className="text-gray-300 text-2xl hover:text-white">
+                    </Link>
+                    <Link to={"/favorite"} className="text-gray-300 text-2xl hover:text-white">
                         Favorite
-                    </a>
+                    </Link>
                 </div>
             </div>
         </nav>
