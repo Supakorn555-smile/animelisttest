@@ -10,7 +10,7 @@ export default defineConfig(({ command }) => {
   }
 
   if (command !== 'serve') {
-    config.base = '/animelisttest'
+    config.base = '/animelisttest/'
   }
 
   return config
